@@ -18,7 +18,7 @@ class MonsterType(Enum):
     ORC = auto()
     BAT = auto()
     SLIME = auto()
-
+#adding comment to test commit
 class Monster:
 
     # Construct a new monster
