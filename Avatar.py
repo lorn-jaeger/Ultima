@@ -85,7 +85,7 @@ class Avatar :
     def draw(self):
         drawX = (self.x + 0.5) * Tile.SIZE
         drawY = (self.y + 0.5) * Tile.SIZE
-        StdDraw.picture(picture.Picture("avatar.gif"), drawX, drawY)
+        StdDraw.picture(picture.Picture("rec/avatar.gif"), drawX, drawY)
 
 # Main code to test the avatar class    
 if __name__ == "__main__":

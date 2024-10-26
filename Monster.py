@@ -71,13 +71,13 @@ class Monster:
             
             
             if self.type == MonsterType.SKELETON:
-                StdDraw.picture(picture.Picture("skeleton.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/skeleton.gif"), drawX, drawY)
             elif self.type == MonsterType.ORC:
-                StdDraw.picture(picture.Picture("orc.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/orc.gif"), drawX, drawY)
             elif self.type == MonsterType.BAT:
-                StdDraw.picture(picture.Picture("bat.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/bat.gif"), drawX, drawY)
             elif self.type == MonsterType.SLIME:
-                StdDraw.picture(picture.Picture("slime.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/slime.gif"), drawX, drawY)
 
             
 

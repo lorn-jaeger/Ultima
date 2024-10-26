@@ -113,21 +113,21 @@ class Tile:
 
         if self.lit:
             if self.type == TileType.FLOOR:
-                StdDraw.picture(picture.Picture("brickfloor.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/brickfloor.gif"), drawX, drawY)
             elif self.type == TileType.LAVA:
-                StdDraw.picture(picture.Picture("lava.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/lava.gif"), drawX, drawY)
             elif self.type == TileType.WATER:
-                StdDraw.picture(picture.Picture("water.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/water.gif"), drawX, drawY)
             elif self.type == TileType.GRASS:
-                StdDraw.picture(picture.Picture("grasslands.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/grasslands.gif"), drawX, drawY)
             elif self.type == TileType.FOREST:
-                StdDraw.picture(picture.Picture("forest.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/forest.gif"), drawX, drawY)
             elif self.type == TileType.MOUNTAIN:
-                StdDraw.picture(picture.Picture("mountains.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/mountains.gif"), drawX, drawY)
             elif self.type == TileType.WALL:
-                StdDraw.picture(picture.Picture("stonewall.gif"), drawX, drawY)
+                StdDraw.picture(picture.Picture("rec/stonewall.gif"), drawX, drawY)
         else:
-            StdDraw.picture(picture.Picture("blank.gif"), drawX, drawY)
+            StdDraw.picture(picture.Picture("rec/blank.gif"), drawX, drawY)
 
 #
 # Main code for testing the Tile class
